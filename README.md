@@ -1,4 +1,4 @@
-# SSPW k-means: Simplex projection based Wasserstein k-means
+# SSPW k-means: Sparse simplex projection based Wasserstein k-means
 ----------
 
 Authors: [Hiroyuki Kasai](http://kasai.comm.waseda.ac.jp/kasai/) and Takumi Fukunaga
