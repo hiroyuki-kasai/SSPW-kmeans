@@ -11,7 +11,7 @@ Latest version: 1.0.0 (see Release notes for more info)
 
 Introduction
 ----------
-This repository contains the code of simplex projection based Wasserstein k-means, called SSPW k-means, that is a faster Wasserstein k-means algorithm for histogram 
+This repository contains the code of sparse simplex projection based Wasserstein k-means, called SSPW k-means, that is a faster Wasserstein k-means algorithm for histogram 
 data by reducing Wasserstein distance computations and exploiting sparse simplex projection. We shrink data samples, centroids, and the ground cost matrix, which 
 leads to considerable reduction of the computations used to solve optimal transport problems without loss of clustering quality. Furthermore, SSPW k-means dynamically 
 reduced the computational complexity by removing lower-valued data samples and harnessing sparse simplex projection while keeping the degradation of clustering quality lower. 
