@@ -27,7 +27,6 @@ T. Fukunaga and H. Kasai, "Wasserstein k-means with sparse simplex projection," 
 
 
 
-
 <br />
 
 
@@ -37,8 +36,8 @@ Folders and files
 ./                      - Top directory.
 ./README.md             - This readme file.
 ./run_me_first.m        - The scipt that you need to run first.
-./demo.m                - Contains the implementation file of SSPW k-means.
-|algorithms             - Contains some files for execution.
+./demo.m                - A demonstration script. 
+|algorithms             - Contains the implementation file of the proposed SSPW k-means
 |tools                  - Contains some files for execution.
 |datasets               - Contains some datasets.
 </pre>
@@ -62,8 +61,6 @@ Run `demo` for a demonstration.
 %% Execute a demonstration script.
 demo; 
 ```
-
-<br />
 
 
 <br />
