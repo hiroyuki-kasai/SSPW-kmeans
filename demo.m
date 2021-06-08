@@ -20,7 +20,7 @@ eval_non_sparse_flag = false;
 
 %% load dataset
 if strcmp(dataset_name, 'COIL20')
-    input = importdata('dataset/COIL20_probability_new.mat');
+    input = importdata('datasets/COIL20_probability_new.mat');
     if hist_dim == 1
         X = input.AllSetIntensityProbabilityWithZero;
     else
@@ -28,7 +28,7 @@ if strcmp(dataset_name, 'COIL20')
     end    
     gnd = input.AllSet.y;
 elseif strcmp(dataset_name, 'COIL100')
-    input = importdata('dataset/COIL100_probability_new.mat');
+    input = importdata('datasets/COIL100_probability_new.mat');
     if hist_dim == 1
         X = input.AllSetIntensityProbabilityWithZero;
     else
@@ -36,20 +36,20 @@ elseif strcmp(dataset_name, 'COIL100')
     end        
     gnd = input.AllSet.y;
 elseif strcmp(dataset_name, 'CIFAR100')
-    input = importdata('dataset/CIFAR100_probability.mat');
+    input = importdata('datasets/CIFAR100_probability.mat');
     X = input.AllSetProbability;    
     gnd = input.AllSet.y;  
 elseif strcmp(dataset_name, 'MNIST')    
-    input = importdata('dataset/MNIST_probability_new.mat');    
+    input = importdata('datasets/MNIST_probability_new.mat');    
     if hist_dim == 1
-        %input = importdata('dataset/MNIST_probability.mat');
+        %input = importdata('datasets/MNIST_probability.mat');
         X = input.AllSetIntensityProbabilityWithZero;
     else
         X = input.AllSet2d14x14IntensityProbability;
     end
     gnd = input.AllSet.y+1;
 elseif strcmp(dataset_name, 'USPS')    
-    input = importdata('dataset/USPS_probability.mat');    
+    input = importdata('datasets/USPS_probability.mat');    
     if hist_dim == 1
         X = input.AllSetIntensityProbabilityWithZero;
     else
@@ -57,7 +57,7 @@ elseif strcmp(dataset_name, 'USPS')
     end
     gnd = input.AllSet.y;    
 elseif strcmp(dataset_name, 'ALOI')    
-    input = importdata('dataset/ALOI/ALOI_probability.mat');
+    input = importdata('datasets/ALOI/ALOI_probability.mat');
     %X = input.AllSetProbabilityWithZero_27;
     %X = input.AllSetProbabilityWithZero_64;
     %X = input.AllSetProbabilityWithZero_125;
