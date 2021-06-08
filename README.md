@@ -23,7 +23,7 @@ reduced the computational complexity by removing lower-valued data samples and h
 Paper
 ----------
 
-T. Fukunaga and H. Kasai, "Wasserstein k-means with sparse simplex projection," ICPR2020. [Publisher's site](https://ieeexplore.ieee.org/document/9412131), [arXiv](https://arxiv.org/abs/2011.12542)
+T. Fukunaga and H. Kasai, "Wasserstein k-means with sparse simplex projection," ICPR2020. [Publisher's site](https://ieeexplore.ieee.org/document/9412131), [arXiv](https://arxiv.org/abs/2011.12542).
 
 
 
@@ -39,6 +39,7 @@ Folders and files
 ./run_me_first.m        - The scipt that you need to run first.
 ./demo.m                - Contains the implementation file of SSPW k-means.
 |algorithms             - Contains some files for execution.
+|tools                  - Contains some files for execution.
 |datasets               - Contains some datasets.
 </pre>
 
