@@ -59,7 +59,7 @@ run_me_first;
 
 Notes
 -------
-* Some parts are borrowed from two works below: 
+* Some parts are borrowed from below: 
 
     - Staib, Matthew and Jegelka, Stefanie, "Wasserstein k-means++ for Cloud Regime Histogram Clustering," Proceedings of the Seventh International Workshop on Climate
 Informatics: CI 2017, 2017, [Code](https://github.com/mstaib/cloud-regime-clustering-code).
