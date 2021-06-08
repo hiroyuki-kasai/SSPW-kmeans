@@ -1,4 +1,4 @@
-# CI GMVC : 
+# SSPW k-means: 
 ----------
 
 Authors: [Hiroyuki Kasai](http://kasai.comm.waseda.ac.jp/kasai/) and Takumi Fukunaga
