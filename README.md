@@ -52,6 +52,16 @@ Run `run_me_first` for path configurations.
 run_me_first; 
 ```
 
+<br />  
+
+Demonstration
+----------------------------
+Run `demo` for a demonstration.
+```Matlab
+%% Execute a demonstration script.
+demo; 
+```
+
 <br />
 
 
