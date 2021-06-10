@@ -1,4 +1,4 @@
-# SSPW k-means: Sparse simplex projection based Wasserstein k-means
+# SSPW k-means: Sparse simplex projection-based Wasserstein k-means
 ----------
 
 Authors: [Hiroyuki Kasai](http://kasai.comm.waseda.ac.jp/kasai/) and Takumi Fukunaga
@@ -11,7 +11,7 @@ Latest version: 1.0.0 (see Release notes for more info)
 
 Introduction
 ----------
-This repository contains the code of sparse simplex projection based Wasserstein k-means, called SSPW k-means, that is a faster Wasserstein k-means algorithm for histogram 
+This repository contains the code of sparse simplex projection-based Wasserstein k-means, called SSPW k-means, that is a faster Wasserstein k-means algorithm for histogram 
 data by reducing Wasserstein distance computations and exploiting sparse simplex projection. We shrink data samples, centroids, and the ground cost matrix, which 
 leads to considerable reduction of the computations used to solve optimal transport problems without loss of clustering quality. Furthermore, SSPW k-means dynamically 
 reduced the computational complexity by removing lower-valued data samples and harnessing sparse simplex projection while keeping the degradation of clustering quality lower. 
@@ -69,8 +69,7 @@ Notes
 -------
 * Some parts are borrowed from below: 
 
-    - Staib, Matthew and Jegelka, Stefanie, "Wasserstein k-means++ for Cloud Regime Histogram Clustering," Proceedings of the Seventh International Workshop on Climate
-Informatics: CI 2017, 2017, [Code](https://github.com/mstaib/cloud-regime-clustering-code).
+    - Staib, Matthew and Jegelka, Stefanie, "Wasserstein k-means++ for Cloud Regime Histogram Clustering," Proceedings of the Seventh International Workshop on Climate Informatics: CI 2017, 2017, [Code](https://github.com/mstaib/cloud-regime-clustering-code).
 
 <br />
 
